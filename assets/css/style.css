@@ -71,6 +71,7 @@ background-color: #F2F3FB;
 .rules-box .rules-title {
     display: flex;
     justify-content: center;
+    text-align: center;
     width: 100%;
     font-size: 25px;
     font-weight: 600;
@@ -334,4 +335,18 @@ footer .next-btn {
 .results .buttons button:hover {
     background: #5CCDE5;
     color: #F2F3FB;
+}
+
+/* ------Media queries for devices up to 768px ----*/
+@media only screen and (max-width: 768px) {
+    .rules-box,
+    .game-box,
+    .results {
+        width: 90%;
+    }
+
+    .complete-img img {
+        width: 200px;
+        height: 125px;
+    }
 }
