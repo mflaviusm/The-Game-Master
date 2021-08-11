@@ -290,3 +290,33 @@ function showResults() {
     }
   }
 
+// get questions and options from array
+function startTimer (time) {
+    timer = setInterval(stopwatch, 1000);
+    function stopwatch () {
+        timeLeft.textContent = time + ' seconds';
+        time--;
+        if(time < 9) {
+          let addZero = timeLeft.textContent;
+          timeLeft.textContent = '0' + addZero;
+        }
+        if (time < 0) {
+          clearInterval(timer);
+          timeLeft.textContent = '00';
+  
+          let correctAnswer = questions[questionsCount].answer;
+          let totalChoices = optionsBox.children.length;
+  
+          for (i = 0; i < totalChoices; i++) {
+            if (optionsBox.children[i].textContent == correctAnswer) {
+                optionsBox.children[i].setAttribute('class', 'option correct');
+            }
+          
+          for (i = 0; i < totalChoices; i++) {
+            optionsBox.children[i].classList.add('disabled');
+          }
+        }
+          nextButton.style.display = 'block';
+        }
+    } 
+  }
