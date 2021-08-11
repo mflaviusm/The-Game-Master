@@ -138,10 +138,10 @@ This project has had its wireframes developed using [Figma](https://www.figma.co
 
 | Mobile | Tablet| Desktop|
 --------------------|--------------------|--------------------------|
-| [Mobile Home Page](assets/readme-images/) | [Tablet Home Page](assets/readme-images/) | [Desktop Home Page](assets/readme-images/) |
-| [Mobile Rules Page](assets/readme-images/) | [Tablet Rules Page](assets/readme-images/) | [Desktop Rules Page](assets/readme-images/) |
-| [Mobile Game Page](assets/readme-images/) | [Tablet Game Page](assets/readme-images/) | [Desktop Game Page](assets/readme-images/) |
-| [Mobile Results Page](assets/readme-images/) | [Tablet Results Page](assets/readme-images/) | [Desktop Results Page](assets/readme-images/) |
+| [Mobile Landing Page](assets/readme-images/mobile.landing.page.frame.png) | [Tablet / Desktop Landing Page](assets/readme-images/desktop.tablet.landing.page.frame.png) |
+| [Mobile Rules Page](assets/readme-images/mobile.rules.page.frame.png) | [Tablet / Desktop Rules Page](assets/readme-images/desktop.tablet.rules.page.frame.png) |
+| [Mobile Game Page](assets/readme-images/mobile.game.page.frame.png) | [Tablet / Desktop Game Page](assets/readme-images/desktop.tablet.game.page.frame.png) |
+| [Mobile Results Page](assets/readme-images/mobile.results.page.frame.png) | [Tablet / Desktop Results Page](assets/readme-images/desktop.tablet.results.page.frame.png) |
 
 ## Changes to Wireframes
 No changes were been made throughout the development of the product as no additional features were implemented.
