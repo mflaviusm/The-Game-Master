@@ -239,4 +239,34 @@ function getQuestions (index) {
         option[i].setAttribute('onclick', 'optionSelected(this)');
     }
 }
-    
+
+
+// determines if the chosen option is correct and displays feedback
+function optionSelected (answer) {
+    clearInterval(timer);
+    let userAnswer = answer.textContent;
+    let correctAnswer = questions[questionsCount].answer;
+    let totalChoices = optionsBox.children.length;
+    let userScoreText = `<i class="fas fa-check"></i> ${userScore + 1} correct`;
+    let userScoreIncorrectText = `<i class="fas fa-times"></i> ${userScoreIncorrect + 1} incorrect`;
+    if ( userAnswer == correctAnswer) {
+        userScore += 1;
+        answer.classList.add('correct');
+        plusOne.innerHTML = userScoreText;
+    } else {
+        userScoreIncorrect += 1;
+        answer.classList.add('incorrect');
+        minusOne.innerHTML = userScoreIncorrectText;
+        for (i = 0; i < totalChoices; i++) {
+            if (optionsBox.children[i].textContent == correctAnswer) {
+                optionsBox.children[i].setAttribute('class', 'option correct');
+            };
+        }
+    }
+
+    // disable other choices after user input
+    for (i = 0; i < totalChoices; i++) {
+        optionsBox.children[i].classList.add('disabled');
+    }
+    nextButton.style.display = 'block';
+}
