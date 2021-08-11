@@ -7,20 +7,20 @@
     <title>The Game Master</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
 </head>
 <body>
     <!-- Start game button  -->
     <button class="start-btn">Begin Quiz</button>
 
+    <!-- Rules of the Quiz -->
     <div class="rules-box">
-        <div class="rules-title"><p>Rules of the Quiz</p></div>
+        <div class="rules-title"><p>The Game Master's Rules</p></div>
         <div class="rules-list">
-            <div class="rules">1. Rules are made to be broken, so please be aware.</div>
-            <div class="rules">2. Rules are made to be broken, so please be careful.</div>
-            <div class="rules">3. Rules are made to be broken, so please be cool.</div>
-            <div class="rules">4. Rules are made to be broken, so please be smart.</div>
-            <div class="rules">5. Rules are made to be broken, so please be quick.</div>
+            <div class="rules">1. There's a time limit of 15 seconds for each question.</div>
+            <div class="rules">2. Once an answer has been selected, feedback is provided.</div>
+            <div class="rules">3. If the timer reaches 0 seconds, question is automatically failed.</div>
+            <div class="rules">4. You can exit the quiz at any point during the game.</div>
+            <div class="rules">5. You get 1 point for each correct answer.</div>
         </div>
         <div class="buttons">
             <button class="quit">Exit Quiz</button>
@@ -28,6 +28,7 @@
         </div>
     </div>
 
+    
     <!-- Main game container  -->
     <div class="game-box">
         <header>
@@ -37,19 +38,16 @@
             </div>
             <div class="timer">
                 <div class="icon"><i class="fas fa-stopwatch"></i></div>
-                <div class="time-left" id="time-num">15</div>
-                <div class="time-left" id="time-sec">seconds</div>
+                <div class="time-left" id="time-num"><!--javascript is used here--></div>
+                <div class="time-left" id="time-sec"></div>
             </div>
         </header>
         <section>
                 <div class="q-number">Question 5</div>
-                <div class="q-text"> Question text here</div>
+                <div class="q-text"><!--javascript is used here--></div>
                 <div class="choice-text">Please choose from the following options:</div>
                 <div class="options-box">
-                    <div class="option">Choice1</div>
-                    <div class="option">Choice2</div>
-                    <div class="option">Choice3</div>
-                    <div class="option">Choice4</div>
+                    <!--javascript is used here-->
                 </div>
         </section>
 
@@ -57,18 +55,17 @@
             <button class="quit-btn">Exit Quiz</button>
             <button class="next-btn">Next question</button>
         </footer>
-
+    </div>
     <!-- End of Quiz Results Container  -->
     <div class="results">
-        <div class="complete-img"><img src="assets/images/rsz_image-from-rawpixel-id-930159-jpeg.jpg" alt="image with the text game"></div>
-        <div class="t-score">You score X out of Y!</div>
-        <div class="buttons">
-            <button class="restart">Try Again</button>
-            <button class="quit">Exit Quiz</button>
-        </div>
-     </div>
- 
-     <script src="assets/js/script.js"></script>
+       <div class="complete-img"><img src="assets/images/rsz_image-from-rawpixel-id-930159-jpeg.jpg" alt="well done"></div>
+       <div class="t-score"><!--javascript is used here--></div>
+       <div class="buttons">
+           <button class="restart">Try Again</button>
+           <button class="quit">Exit Quiz</button>
+       </div>
     </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
