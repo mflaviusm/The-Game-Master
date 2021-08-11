@@ -220,6 +220,44 @@ exitButton.onclick = () => {
     window.location.reload();
 }
 
+// if next button is clicked
+nextButton.onclick = () => {
+    if (questionsCount < questions.length - 1) {
+        questionsCount++;
+        getQuestions(questionsCount);
+        clearInterval(timer);
+        startTimer(timeValue);
+        nextButton.style.display = 'none';
+    } else {
+      clearInterval(timer);
+      showResults();
+    }
+    
+}
+
+// if exit game at the results page is clicked
+returnButton.onclick = () => {
+  window.location.reload();
+}
+
+// if the try again button is clicked
+restartButton.onclick = () => {
+  gameBox.classList.add('activeGame');
+  resultsBox.classList.remove('activeResults');
+  questionsCount = 0;
+  timeValue = 15;
+  userScore = 0;
+  userScoreIncorrect = 0;
+  plusOne.innerHTML = userScoreText;
+minusOne.innerHTML = userScoreIncorrectText;
+  getQuestions(questionsCount);
+  clearInterval(timer);
+  startTimer(timeValue);
+  nextButton.style.display = 'none';
+}
+let userScoreText = `<i class="fas fa-check"></i> ${userScore} correct`;
+let userScoreIncorrectText = `<i class="fas fa-times"></i> ${userScoreIncorrect} incorrect`;
+
 // gets question and choices text from questions array
 function getQuestions (index) {
     const questionText = document.querySelector('.q-text');

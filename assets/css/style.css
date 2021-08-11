@@ -23,6 +23,15 @@ background-color: #F2F3FB;
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.rules-box.gameInfo,
+.game-box.activeGame,
+.results.activeResults {
+    opacity: 1;
+    z-index: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
 .start-btn{
     z-index: 1;
     padding: 10px 30px;
