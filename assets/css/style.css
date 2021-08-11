@@ -11,6 +11,8 @@ body {
 background-color: #F2F3FB;
 }
 
+
+/* --------S tyling rules to centre all content to the middle of the page--- */
 .start-btn,
 .rules-box,
 .game-box,
@@ -32,6 +34,7 @@ background-color: #F2F3FB;
     transform: translate(-50%, -50%) scale(1);
 }
 
+/* -------- Start button styling---- */
 .start-btn{
     z-index: 1;
     padding: 10px 30px;
@@ -51,6 +54,7 @@ background-color: #F2F3FB;
     color: #F2F3FB;
 }
 
+/* ------- Game rules styling----- */
 .rules-box {
     position: absolute;
     border-radius: 5px;
@@ -109,6 +113,7 @@ background-color: #F2F3FB;
     transition: all 0.3s ease;
 }
 
+/* -------- Styling rules for the quiz div ------ */
 .game-box {
     border-radius: 5px;
     opacity: 0;
@@ -121,6 +126,7 @@ background-color: #F2F3FB;
     transition: all 0.3s ease;        
 }
 
+/* -------- Styling rules for the quiz div header and children ------ */
 .game-box header {
     position: relative;
     z-index: 2;
@@ -152,6 +158,7 @@ background-color: #F2F3FB;
     padding: 0 5px;
     font-size: 20px;
 }
+
 .timer {
     display: flex;
     align-items: center;
@@ -164,6 +171,7 @@ background-color: #F2F3FB;
     padding: 0 2px;
 }
 
+/* -------- Styling rules for the quiz section and children ------ */
 section{
     padding: 25px 30px 20px 30px;
     background: #fff;
@@ -204,8 +212,6 @@ section{
     text-align: center;
     width: 100%;
     cursor: pointer;
-    
-    
 }
 
 section .options-box .option:hover {
@@ -225,6 +231,7 @@ section .options-box .option.disabled {
     pointer-events: none;
 }
 
+/* -------- Styling rules for the quiz footer and children ------ */
 footer {
     height: 60px;
     padding: 0 30px;
@@ -264,6 +271,7 @@ footer .next-btn {
     display: none;
 }
 
+/* -------- Styling rules for the results div and children------ */
 .results {
     width: 400px;
     position: absolute;
