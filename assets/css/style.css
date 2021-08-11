@@ -22,3 +22,22 @@ background-color: #F2F3FB;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.start-btn{
+    z-index: 1;
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #5CCDE5;
+    cursor: pointer;
+    background: #F2F3FB;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.start-btn:hover {
+    background: #4CC9F0;
+    color: #F2F3FB;
+}
