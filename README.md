@@ -1,38 +1,38 @@
 # The Game Master
 
-The Game Master is a quiz designed to test the user knowledge on video games. Video games have been around from a long time now and have been evolving constantly. Unlike the first video games that came out in the early 1970s, nowadays the technology used to develop them has evolved, allowing developers to create visual and techonological masterpieces.
+The Game Master is a quiz designed to test the user knowledge of video games. Video games have been around for a long time now and have been evolving constantly. Unlike the first video games that came out in the early 1970s, nowadays the technology used to develop them has evolved, allowing developers to create visual and technological masterpieces.
 
-The idea behind The Game Master is very simple. When the users access the website, they will be promted with a start button. Once that is clicked they will have the opportunity to read a set of rules about the game. They can either continue and start playing or quit. Once the game has been started they will have a set of 15 questions to answer before the quiz finishes. The end screen will vary depending on the user score. Lastly, they can either try again or quit the quiz.
+The idea behind The Game Master is very simple. When the users access the website, they will be prompted with a start button. Once that is clicked they will have the opportunity to read a set of rules about the game. They can either continue and start playing or quit. Once the game has been started they will have a set of 15 questions to answer before the quiz finishes. The end screen will vary depending on the user score. Lastly, they can either try again or quit the quiz.
 
-The primary goal of this website is to give users the opportunity to test their knowledge on video gaming history.
+The primary goal of this website is to give users the opportunity to test their knowledge of video gaming history.
 
-The Game Master was created for my Milestone 2 projefct in the Full Stack Web Development course I am currently undertaking at Code Institute.
+The Game Master was created for my Milestone 2 project in the Full Stack Web Development course I am currently undertaking at Code Institute.
 
 ![](assets/readme-images/amiresponsive.game.master.png)
 
 
-[Live website link](https://mflaviusm.github.io/project-2-template/)
+[Live website link](https://mflaviusm.github.io/The-Game-Master/)
 ## Features 
 
 The Game Master was designed with the user in mind to offer the best possible UX and UI.
 
 # Table of Contents
 
-1. [ Project Goals](https://github.com/mflaviusm/GENUS#project-goals)
-2. [UX](https://github.com/mflaviusm/GENUS#ux)
-3. [ Strategy Plane](https://github.com/mflaviusm/GENUS#strategy-plane)
-    * [User Stories](https://github.com/mflaviusm/GENUS#user-stories)
-4. [ Scope Plane](https://github.com/mflaviusm/GENUS/#scope-plane)
-    * [ Existing Features](https://github.com/mflaviusm/GENUS#existing-features)
-    * [ Features not implement](https://github.com/mflaviusm/GENUS#features-not-implemented)
-5.  [ Structure Plane](https://github.com/mflaviusm/GENUS#structure-plane)
-6.  [ Skeleton Plane](https://github.com/mflaviusm/GENUS#skeleton-plane)
-7.  [ Surface Plane](https://github.com/mflaviusm/GENUS#surface-plane)
-8. [ Technologies](https://github.com/mflaviusm/GENUS#technologies)
-9. [ Testing](https://github.com/mflaviusm/GENUS#testing)
-10. [Deployment](https://github.com/mflaviusm/GENUS#deployment)
-11. [Credits](https://github.com/mflaviusm/GENUS#credits)
-12. [Acknowledgements](https://github.com/mflaviusm/GENUS#acknowledgements)
+1. [ Project Goals](https://github.com/mflaviusm/The-Game-Master#project-goals)
+2. [UX](https://github.com/mflaviusm/The-Game-Master#ux)
+3. [ Strategy Plane](https://github.com/mflaviusm/The-Game-Master#strategy-plane)
+    * [User Stories](https://github.com/mflaviusm/The-Game-Master#user-stories)
+4. [ Scope Plane](https://github.com/mflaviusm/The-Game-Master/#scope-plane)
+    * [ Existing Features](https://github.com/mflaviusm/The-Game-Master#existing-features)
+    * [ Features not implement](https://github.com/mflaviusm/The-Game-Master#features-not-implemented)
+5.  [ Structure Plane](https://github.com/mflaviusm/The-Game-Master#structure-plane)
+6.  [ Skeleton Plane](https://github.com/mflaviusm/The-Game-Master#skeleton-plane)
+7.  [ Surface Plane](https://github.com/mflaviusm/The-Game-Master#surface-plane)
+8. [ Technologies](https://github.com/mflaviusm/The-Game-Master#technologies)
+9. [ Testing](https://github.com/mflaviusm/The-Game-Master#testing)
+10. [Deployment](https://github.com/mflaviusm/The-Game-Master#deployment)
+11. [Credits](https://github.com/mflaviusm/The-Game-Master#credits)
+12. [Acknowledgements](https://github.com/mflaviusm/The-Game-Master#acknowledgements)
 
 
 
@@ -44,19 +44,19 @@ The Game Master was designed with the user in mind to offer the best possible UX
   * To provide content on video games
 
 ## UX
-UX design and principle were central and of the utmost importance for the development of this website. The five planes were used when sketching the quiz structure and content and throughout the development of it.
+UX design and principle were central and of the utmost importance for the development of this website. The five planes were used when sketching the quiz structure and content and throughout its development.
 
 # Strategy Plane
 ### Client Goals
 * As a client, I want an intuitive platform.
-* As a client, I want a product that is engaging and has various functionality.
+* As a client, I want a product that is engaging and has various functionalities.
 * As a client, I want to offer my visitors an excellent user experience that will make them want to return.
 * As a client, I will look for accurate information that is displayed accordingly to persuade users to use my platform.
 
 ## User Stories
 * As a visitor, I want to understand what the platform has to offer.
 * As a visitor, I want an intuitive platform that I can easily navigate.
-* As a visitor, I want to put my knowledge of video games to test.
+* As a visitor, I want to put my knowledge of video games to the test.
 
 ## Opportunity Goal Table
 
@@ -69,7 +69,7 @@ At the planning stages of the development, the opportunities for the website wer
 | 3. Promote the game | 4 | 3 |
 | 5. Increase user feedback | 4 | 4 |
 | 6. Provide contact information | 3 | 4 |
-| 8. Offer additional funcionality | 4 | 1 |
+| 8. Offer additional functionality | 4 | 1 |
 
 # Scope Plane
 
@@ -82,7 +82,7 @@ During the strategy stage of the development, features were verified against the
 | 3. Promote the game | 2 |
 | 5. Increase user feedback | 3 |
 | 6. Provide contact information | 2 |
-| 8. Offer additional funcionality | 3 |
+| 8. Offer additional functionality | 3 |
 
 
 *1 - Immediate Release 2 - Short-term release 3 - Long-term*
@@ -90,21 +90,21 @@ During the strategy stage of the development, features were verified against the
 ## Existing Features
 
 * Mobile responsive design
-  * Although The Game Master has not been developed as a mobile-first design, it has been revised to offer responsiveness on any type of device it is accesed from (using Cascading Style Sheets) to allow users an enjoyable experience whilst playing the quiz.
+  * Although The Game Master has not been developed as a mobile-first design, it has been revised to offer responsiveness on any type of device it is accessed from (using Cascading Style Sheets) to allow users an enjoyable experience whilst playing the quiz.
 * Start Game Button
   * The start game button is the only feature users will see when accessing the website.
   * The start game button will send users to the rules page of the quiz to get a better understanding of the product.
 * The Game Rules Page
-  * The game rules page will allow users to get information the information on how to play and what to expect.
+  * The game rules page will allow users to get information on how to play and what to expect.
 * The Quiz Play Page
-  * The quiz comes with various funcionality. It has a score tracker that shows the player their score in real time. The correct answers are accompagned by a tick icon, whilst the wrong answers have a cross icon.
+  * The quiz comes with various functionality. It has a score tracker that shows the player their score in real-time. The correct answers are accompanied by a tick icon, whilst the wrong answers have a cross icon.
   * The quiz comes with a timer of 15 seconds for each question. When the timer is up and the user has not made a choice, they will no longer be able to.
   * After each answer if the user made the correct selection, the choice will turn green and if the wrong answer has been selected, the choice will turn red and the correct one will turn green.
-  * To prevent users from accidentaly pressing the next button whilst playing, it will not be available until the palyer has made a selection or the timer has expired.
-  * At any time when the user is playing the quiz, there's and exit button that will allow to return to the start button page.
-  * [Font Awesome](https://fontawesome.com/) icons are used for the timer, correct answers and incorrect answers trakers.
+  * To prevent users from accidentally pressing the next button whilst playing, it will not be available until the player has made a selection or the timer has expired.
+  * At any time when the user is playing the quiz, there's an exit button that will allow returning to the start button page.
+  * [Font Awesome](https://fontawesome.com/) icons are used for the timer, correct answers and incorrect answers trackers.
 * The Results Page 
-  * The results page provides the user with feedback on how they did on the quiz. There are three end game screens depending on how well the player has scored. If the score is above 10, they will be prompted with "Amazing Job, You Are A True Gamer!" text, if the score is above 5, the prompt will say "Well done!" and if the score is under 5, they player will get "Better luck next time"
+  * The results page provides the user with feedback on how they did on the quiz. There are three end game screens depending on how well the player has scored. If the score is above 10, they will be prompted with "Amazing Job, You Are A True Gamer!" text, if the score is above 5, the prompt will say "Well done!" and if the score is under 5, the player will get "Better luck next time"
 
 ## Features not implemented 
 
@@ -112,7 +112,7 @@ During the strategy stage of the development, features were verified against the
   * A feature to allow the users to get different questions every time they play the quiz, rather than having the same set of questions in the same order.
 
 * High Score tracker
-  * A high score tracker that will allow the user to see how well they are doing everytime and be able to compete with friends or family.
+  * A high score tracker that will allow the user to see how well they are doing every time and be able to compete with friends or family.
 
 * Difficulty levels
   * Implement difficulty levels to ensure the product reaches a bigger audience by being able to play the game on various difficulty levels, each level having an increasingly difficult question pool.
@@ -120,7 +120,7 @@ During the strategy stage of the development, features were verified against the
 * Button text
   * After the user responds to the last question or time is up the 'next button' text should change to 'finish'.
 
-* Register score when time expires
+* Register score when the time expires
  * On any question, if the time expires and the user has not made a choice, 1 point should be added to the incorrect answer counter.
 
 
@@ -128,7 +128,7 @@ During the strategy stage of the development, features were verified against the
 
 The quiz has been designed to be simple and easy to navigate. Any future updates will be supported with the current hierarchical structure.
 
-The start button will always be the only information users see when accesing the website, any other implementations and future updates being added either before or after the quiz game itself.
+The start button will always be the only information users see when accessing the website, any other implementations and future updates being added either before or after the quiz game itself.
 
 # Skeleton Plane
 
@@ -167,7 +167,6 @@ Only one image has been used in the development of this project. Given the natur
 
  - [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the mockups.
  - [Figma](https://www.figma.com/) & [Ui Design Daily](https://www.uidesigndaily.com/posts/photoshop-driving-questionnaire-choice-submit-day-292) were used to design the wireframes.
- - [Ui Design Daily](https://www.uidesigndaily.com/posts/photoshop-driving-questionnaire-choice-submit-day-292).
  - [Font Awesome](https://fontawesome.com/) was used for the timer and score trackers.
  - [GitHub](https://github.com/) was used to store the repository.
  - Git was used for version control and push code to GitHub.
