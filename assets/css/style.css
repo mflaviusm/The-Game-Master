@@ -41,3 +41,61 @@ background-color: #F2F3FB;
     background: #4CC9F0;
     color: #F2F3FB;
 }
+
+.rules-box {
+    position: absolute;
+    border-radius: 5px;
+    width: 500px;
+    background-color: #F2F3FB;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rules-box .rules-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: #6A6E6F;
+    border-bottom: 1px solid #B2C4CA;
+}
+
+.rules-box .rules-list {
+    padding:10px 15px;
+
+}
+
+.rules-list .rules {
+    padding: 3px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6A6E6F;
+}
+
+.rules-box .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.rules-box .buttons button {
+    height: 35px;
+    color: #5CCDE5;
+    background-color: #F2F3FB;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #B2C4CA;
+    transition: all 0.3s ease;
+}
