@@ -220,4 +220,23 @@ exitButton.onclick = () => {
     window.location.reload();
 }
 
+// gets question and choices text from questions array
+function getQuestions (index) {
+    const questionText = document.querySelector('.q-text');
+    const questionNumber = document.querySelector('.q-number');
+    let questionNumberText = `Question ${questions[index].numb}`;
+    let questionTag = '<span>' + questions[index].question + '</span>';
+    let optionsTag = '<div class ="option"><span>' + questions[index].options[0] + '</span></div>'
+                    + '<div class ="option"><span>' + questions[index].options[1] + '</span></div>'
+                    + '<div class ="option"><span>' + questions[index].options[2] + '</span></div>'
+                    + '<div class ="option"><span>' + questions[index].options[3] + '</span></div>';
+    questionText.innerHTML = questionTag;
+    optionsBox.innerHTML = optionsTag; 
+    questionNumber.innerHTML = questionNumberText;
+
+    const option = optionsBox.querySelectorAll('.option');
+    for (let i = 0; i < option.length; i++) {
+        option[i].setAttribute('onclick', 'optionSelected(this)');
+    }
+}
     
