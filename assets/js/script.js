@@ -192,4 +192,32 @@ let questions = [
         ]
     },
 ]
+
+// when the start button is pressed
+
+startButton.onclick = () => {
+    rulesBox.classList.add('gameInfo');
+}
+
+// when the quit buttonn is pressed
+
+quitButton.onclick = () => {
+    rulesBox.classList.remove('gameInfo');
+}
+
+// when the continue button is pressed
+
+continueButton.onclick = () => {
+    rulesBox.classList.remove('gameInfo');
+    gameBox.classList.add('activeGame');
+    getQuestions(0);
+    startTimer(timeValue);
+}
+
+
+// if the exit button is pressed while playing the game
+exitButton.onclick = () => {
+    window.location.reload();
+}
+
     
