@@ -191,19 +191,19 @@ let questions = [
         "Nintendo Switch"
       ]
   },
-]
+];
 
 // when the start button is pressed
 
 startButton.onclick = () => {
     rulesBox.classList.add('gameInfo');
-}
+};
 
 // when the quit buttonn is pressed
 
 quitButton.onclick = () => {
     rulesBox.classList.remove('gameInfo');
-}
+};
 
 // when the continue button is pressed
 
@@ -212,13 +212,13 @@ continueButton.onclick = () => {
     gameBox.classList.add('activeGame');
     getQuestions(0);
     startTimer(timeValue);
-}
+};
 
 
 // if the exit button is pressed while playing the game
 exitButton.onclick = () => {
     window.location.reload();
-}
+};
 
 // if next button is clicked
 nextButton.onclick = () => {
@@ -233,12 +233,12 @@ nextButton.onclick = () => {
       showResults();
     }
     
-}
+};
 
 // if exit game at the results page is clicked
 returnButton.onclick = () => {
   window.location.reload();
-}
+};
 
 // if the try again button is clicked
 restartButton.onclick = () => {
@@ -254,7 +254,7 @@ restartButton.onclick = () => {
   clearInterval(timer);
   startTimer(timeValue);
   nextButton.style.display = 'none';
-}
+};
 
 let userScoreText = `<i class="fas fa-check"></i> ${userScore} correct`;
 let userScoreIncorrectText = `<i class="fas fa-times"></i> ${userScoreIncorrect} incorrect`;
@@ -299,7 +299,7 @@ function optionSelected (answer) {
         for (i = 0; i < totalChoices; i++) {
             if (optionsBox.children[i].textContent == correctAnswer) {
                 optionsBox.children[i].setAttribute('class', 'option correct');
-            };
+            }
         }
     }
 
