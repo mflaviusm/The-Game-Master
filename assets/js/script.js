@@ -270,3 +270,23 @@ function optionSelected (answer) {
     }
     nextButton.style.display = 'block';
 }
+
+
+// close the game and show results to user
+function showResults() {
+    rulesBox.classList.remove('gameInfo');
+    gameBox.classList.remove('activeGame');
+    resultsBox.classList.add('activeResults');
+    const scoreBox = resultsBox.querySelector('.t-score');
+    if (userScore > 10) {
+      let scoreTag = '<p> You scored ' + userScore + ' out of ' + questions.length + '!</p>' + '<br>' + '<p>Amazing Job, You Are A True Gamer!</p> <p><i class="fas fa-grin-stars"></i></p>';
+      scoreBox.innerHTML = scoreTag;
+    } else if (userScore > 5) {
+      let scoreTag = '<p> You scored ' + userScore + ' out of ' + questions.length + '!</p>' + '<br>' + '<p>Well done!</p> <p><i class="fas fa-grin-stars"></i></p>';
+      scoreBox.innerHTML = scoreTag;
+    } else {
+        let scoreTag = '<p> You scored ' + userScore + ' out of ' + questions.length + '!</p>' + '<br>' + '<p>Better luck next time!</p> <p><i class="fas fa-grimace"></i></p>';
+      scoreBox.innerHTML = scoreTag;
+    }
+  }
+
