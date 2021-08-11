@@ -4,9 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Game Master</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 </head>
 <body>
-    
+    <!-- Start game button  -->
+    <button class="start-btn">Begin Quiz</button>
+
+    <div class="rules-box">
+        <div class="rules-title"><p>Rules of the Quiz</p></div>
+        <div class="rules-list">
+            <div class="rules">1. Rules are made to be broken, so please be aware.</div>
+            <div class="rules">2. Rules are made to be broken, so please be careful.</div>
+            <div class="rules">3. Rules are made to be broken, so please be cool.</div>
+            <div class="rules">4. Rules are made to be broken, so please be smart.</div>
+            <div class="rules">5. Rules are made to be broken, so please be quick.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+
+    <!-- Main game container  -->
+    <div class="game-box">
+        <header>
+            <div class="total-q">
+                <div class="score" id="correct-q"><i class="fas fa-check"></i>0 correct</div>
+                <div class="score" id="wrong-q"><i class="fas fa-times"></i>0 incorrect</div>
+            </div>
+            <div class="timer">
+                <div class="icon"><i class="fas fa-stopwatch"></i></div>
+                <div class="time-left" id="time-num">15</div>
+                <div class="time-left" id="time-sec">seconds</div>
+            </div>
+        </header>
+        <section>
+                <div class="q-number">Question 5</div>
+                <div class="q-text"> Question text here</div>
+                <div class="choice-text">Please choose from the following options:</div>
+                <div class="options-box">
+                    <div class="option">Choice1</div>
+                    <div class="option">Choice2</div>
+                    <div class="option">Choice3</div>
+                    <div class="option">Choice4</div>
+                </div>
+        </section>
+
+        <footer>
+            <button class="quit-btn">Exit Quiz</button>
+            <button class="next-btn">Next question</button>
+        </footer>
+
+    <!-- End of Quiz Results Container  -->
+    <div class="results">
+        <div class="complete-img"><img src="assets/images/rsz_image-from-rawpixel-id-930159-jpeg.jpg" alt="image with the text game"></div>
+        <div class="t-score">You score X out of Y!</div>
+        <div class="buttons">
+            <button class="restart">Try Again</button>
+            <button class="quit">Exit Quiz</button>
+        </div>
+     </div>
+ 
+     <script src="assets/js/script.js"></script>
+    </div>
 </body>
 </html>
